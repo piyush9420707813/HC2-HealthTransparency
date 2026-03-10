@@ -1,11 +1,7 @@
 # 🏥 TreatWise – Healthcare Transparency & Decision Intelligence Platform
 # Project Name
-![Alt Text for GIF](path/to/your/demo.gif)
-
-[👉 **Live Demo**](YOUR_LIVE_URL_HERE)
-
-
-[![Source Code](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge)](https://github.com/piyush9420707813/HC2-HealthTransparency)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-brightgreen?style=for-the-badge&logo=vercel)](https://hc-2-health-transparency.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/💻%20Source%20Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/piyush9420707813/HC2-HealthTransparency)
 
 TreatWise is a healthcare transparency platform designed to help patients make informed decisions based on structured, real-world treatment data. Unlike traditional review systems that rely on generic star ratings, TreatWise converts patient feedback into measurable healthcare intelligence such as billing deviation, insurance efficiency, recovery outcomes, and wait times.
 
