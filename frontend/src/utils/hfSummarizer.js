@@ -1,6 +1,6 @@
 export const summarizeTextHF = async (text, language = "English") => {
   try {
-    const response = await fetch("http://localhost:5001/summarize", {
+    const response = await fetch("https://hc2-healthtransparency.onrender.com/summarize", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
