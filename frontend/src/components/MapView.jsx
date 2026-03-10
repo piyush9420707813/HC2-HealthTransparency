@@ -2,14 +2,25 @@ import { useEffect } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import markerShadow from "leaflet/dist/images/marker-shadow.png";
+
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconUrl: markerIcon,
+  shadowUrl: markerShadow,
+});
+
 const MapView = ({ locations }) => {
   useEffect(() => {
     if (!locations || locations.length === 0) return;
 
     const mapContainer = document.getElementById("map-container");
-    if (mapContainer._leaflet_id) {
-      mapContainer._leaflet_id = null;
-    }
+
+if (mapContainer && mapContainer._leaflet_id) {
+  mapContainer._leaflet_id = null;
+}
 
     const map = L.map("map-container").setView(
       [locations[0].lat, locations[0].lng],
