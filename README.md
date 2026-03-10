@@ -1,5 +1,9 @@
 # 🏥 TreatWise – Healthcare Transparency & Decision Intelligence Platform
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge&logo=appveyor)](YOUR_LIVE_URL_HERE)
+# Project Name
+![Alt Text for GIF](path/to/your/demo.gif)
+
+[👉 **Live Demo**](YOUR_LIVE_URL_HERE)
+
 
 [![Source Code](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge)](https://github.com/piyush9420707813/HC2-HealthTransparency)
 
