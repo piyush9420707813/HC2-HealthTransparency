@@ -34,9 +34,18 @@ if (mapContainer && mapContainer._leaflet_id) {
     locations.forEach((loc) => {
       if (!loc.lat || !loc.lng) return;
 
-      L.marker([loc.lat, loc.lng])
-        .addTo(map)
-        .bindPopup(`<strong>${loc.label}</strong>`);
+      const customIcon = L.icon({
+  iconUrl: markerIcon,
+  shadowUrl: markerShadow,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
+
+L.marker([loc.lat, loc.lng], { icon: customIcon })
+  .addTo(map)
+  .bindPopup(`<strong>${loc.label}</strong>`);
     });
 
     return () => map.remove();
